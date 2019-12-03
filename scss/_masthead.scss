@@ -6,7 +6,8 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
+  color: white;
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/masthead.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,5 +21,13 @@
     h1 {
       font-size: 5.5rem;
     }
+  }
+  .photo {
+    width: 100%;
+  }
+  .circle {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
   }
 }

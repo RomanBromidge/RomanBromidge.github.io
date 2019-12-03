@@ -1,6 +1,11 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  // //Increase the size of objects when tilting
+  // $('.js-tilt').tilt({
+  //   scale: 1.2
+  // });
+
   // Closes the sidebar menu
   $(".menu-toggle").click(function(e) {
     e.preventDefault();
