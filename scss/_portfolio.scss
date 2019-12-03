@@ -17,7 +17,7 @@
       color: $white;
       margin: auto 2rem 2rem;
       h2 {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
       }
       p {
@@ -30,6 +30,7 @@
     max-width: none;
     margin: 0;
     .caption {
+      opacity: 0;
       -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
       -webkit-clip-path: inset(0px);
       clip-path: inset(0px);
@@ -51,6 +52,7 @@
         clip-path: inset(2rem);
       }
       .caption {
+        opacity: 1;
         background-color: fade-out($primary, 0.1);
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);

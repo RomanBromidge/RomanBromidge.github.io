@@ -7,10 +7,6 @@
   padding-top: 8rem;
   padding-bottom: 8rem;
   color: white;
-  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/masthead.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   h1 {
     font-size: 4rem;
     margin: 0;
@@ -30,4 +26,35 @@
     display: inline-block;
     position: relative;
   }
+}
+
+.masthead-main {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/masthead.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead-ai {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/3d_img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead-merudite {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/merudite_img.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead-ea {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/ea_img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead-vr {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/vr_img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
