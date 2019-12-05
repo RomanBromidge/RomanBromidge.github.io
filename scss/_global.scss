@@ -17,6 +17,19 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  img {
+    border-radius: 1em;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.photo {
+  width: 100%;
+}
+.circle {
+  border-radius: 50% !important;
+  display: inline-block;
+  position: relative;
 }
 
 .content-section-heading {

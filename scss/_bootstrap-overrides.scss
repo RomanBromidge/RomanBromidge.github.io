@@ -50,4 +50,12 @@ a {
 
 .text-secondary {
   color: $secondary !important;
+  a {
+    color: $secondary !important;
+    &:hover,
+    &:focus,
+    &:active {
+      color: darken($secondary, 10%) !important;
+    }
+  }
 }

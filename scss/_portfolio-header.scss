@@ -1,0 +1,40 @@
+// Portfolio header
+.portfolio-header {
+  padding: 15rem 0;
+
+  h2 {
+    img {
+      height: 4rem;
+    }
+    color: $white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;
+  }
+  h3 {
+    color: $white;
+
+  }
+}
+
+.header-sturent {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/sturent_img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-merudite {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/merudite_img.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-ai {
+  background: linear-gradient(90deg, fade-out($black, 0.2) 0%, fade-out($black, 0.2) 100%), url('../img/3d_img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
